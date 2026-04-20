@@ -11,3 +11,4 @@ def get_uptime():
 if __name__ == '__main__':
     uptime = get_uptime()
     print(f'System Uptime: {uptime // 3600} hours, {(uptime % 3600) // 60} minutes, {uptime % 60} seconds')
+    
